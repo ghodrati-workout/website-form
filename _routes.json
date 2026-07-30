@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "include": ["/api/*"],
+  "routes": [
+    {
+      "pattern": "/api/send-form",
+      "methods": ["POST"],
+      "script": "send-form"
+    }
+  ]
+}
