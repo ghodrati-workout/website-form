@@ -36,7 +36,7 @@
     const data = Object.fromEntries(new FormData(e.target));
     console.log("Sending:", data);
 
-    const res = await fetch('https://send-form.alireza-zsn.workers.dev/', {
+    const res = await fetch('https://backend-worker.alireza-zsn.workers.dev/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
