@@ -5,26 +5,26 @@
 </style>
 
 <form id="myForm">
-  <input name="firstName" placeholder="First Name" required />
-  <input name="lastName" placeholder="Last Name" required />
+  <input name="firstName" placeholder="نام" required />
+  <input name="lastName" placeholder="نام خانوادگی" required />
 
   <select name="gender" required>
-    <option value="" selected disabled>Select gender</option>
-    <option value="female">Female</option>
-    <option value="male">Male</option>
+    <option value="" selected disabled>جنسیت</option>
+    <option value="female">زن</option>
+    <option value="male">مرد</option>
   </select>
 
-  <input name="age" type="number" min="0" max="120" placeholder="Age" />
-  <input name="email" type="email" placeholder="Email" required />
+  <input name="age" type="number" min="0" max="120" placeholder="سن" />
+  <input name="email" type="email" placeholder="ایمیل" required />
 
   <select name="country">
-    <option value="" selected>Choose country (optional)</option>
-    <option value="US">United States</option>
-    <option value="CA">Canada</option>
-    <option value="UK">United Kingdom</option>
+    <option value="" selected>شهر خود را انتخاب کنبد (انتخابی)</option>
+    <option value="US">مشهد</option>
+    <option value="CA">شیراز</option>
+    <option value="UK">تهران</option>
   </select>
 
-  <textarea name="message" placeholder="Message"></textarea>
+  <textarea name="message" placeholder="توضیحات"></textarea>
 
   <button type="submit">Send</button>
 </form>
